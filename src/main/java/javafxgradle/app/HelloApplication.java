@@ -1,4 +1,4 @@
-package javafxgradle.javafxgradle;
+package javafxgradle.app;
 
 import javafx.application.Application;
 import javafx.fxml.FXMLLoader;

@@ -1,4 +1,4 @@
-package javafxgradle.javafxgradle;
+package javafxgradle.app;
 
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;

@@ -1,9 +1,9 @@
-module javafxgradle.javafxgradle {
+module javafxgradle.app {
     requires javafx.controls;
     requires javafx.fxml;
 
     requires org.controlsfx.controls;
 
-    opens javafxgradle.javafxgradle to javafx.fxml;
-    exports javafxgradle.javafxgradle;
+    opens javafxgradle.app to javafx.fxml;
+    exports javafxgradle.app;
 }
