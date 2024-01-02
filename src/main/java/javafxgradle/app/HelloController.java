@@ -3,6 +3,7 @@ package javafxgradle.app;
 import javafx.fxml.FXML;
 import javafx.scene.control.Label;
 
+import java.time.LocalDateTime;
 import java.util.Objects;
 
 public class HelloController {
@@ -17,6 +18,6 @@ public class HelloController {
             welcomeText.setText("Halo!");
         } else if (Objects.equals(welcomeText.getText(), "Hi!")) {
             welcomeText.setText("Bueno!");
-        } else {welcomeText.setText("Hello!");}
+        } else {welcomeText.setText(LocalDateTime.now().toString());}
     }
 }
